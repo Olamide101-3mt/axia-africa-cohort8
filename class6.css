@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: line-through;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: justify;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+ /*background-color: #000;*/
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), url("myimage3.jpg"));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+  
+/*This is a way of importing fonts locally.*/
+@font-face {
+  font-family: 'Times New Roman', Times, serif;
+  src: url("");
+}
+h2 {
+  background-color: chocolate;
+  color: #fff;
+  padding: 20px;
+  border-width: 10px;
+  border-color: blue;
+  border-style: solid;
+  margin: 20px;
+
+  
+
+}
+

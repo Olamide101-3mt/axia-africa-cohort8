@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="mousehover">This is an event</p>
+    <div id="box" onclicl="alert('hey decode!')"></div>
+
+
+
+    <script>
+        element.addEventListener("mouseover", function(){
+            element.style.color= "red";
+        });
+
+        //Here i am practicing javascript event from this tutorial
+        const b=document.getElementById("box");
+        box.addEventListener("click", function(e) {  // This is a way of writing standard function
+            alert("Hey Decode!");
+        });
+
+        //Another way to write a function. Note: this is just a  repetition of the function you have above. this is called arrow function
+      //  box.addEventListener("click", e => {
+      //      alert("Hey Decode!");
+      //  });
+
+
+        //still on this tutorial. Another method:  he showed another way to have a function outside the event
+        
+        const f=document.getElementById("box");
+
+        function handleboxclick(e) {
+            alert("Hey Decode!");
+        }
+
+
+        box.addEventListener("click", handleboxclick(e));
+    </script>
+</body>
+</html>
